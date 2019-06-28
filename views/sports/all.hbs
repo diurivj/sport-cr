@@ -1,0 +1,10 @@
+<h2>Sports</h2>
+
+{{#each sports as |sport|}}
+<p>{{sport.name}}</p>
+<p>{{sport.description}}</p>
+{{/each}}
+
+{{#if err}}
+<h3>{{err}}</h3>
+{{/if}}

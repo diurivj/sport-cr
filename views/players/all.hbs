@@ -1,0 +1,10 @@
+<h2>Players</h2>
+
+{{#each players as |player|}}
+<p>{{player.firstName}} {{player.lastName}}</p>
+<p>{{player.alias}}</p>
+{{/each}}
+
+{{#if err}}
+<h3>{{err}}</h3>
+{{/if}}

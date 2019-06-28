@@ -1,0 +1,10 @@
+<h2>Teams</h2>
+
+{{#each teams as |team|}}
+<p>{{team.name}}</p>
+<p>{{team.league}}</p>
+{{/each}}
+
+{{#if err}}
+<h3>{{err}}</h3>
+{{/if}}
