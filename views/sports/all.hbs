@@ -2,7 +2,7 @@
 
 {{#each sports as |sport|}}
 <p>{{sport.name}}</p>
-<p>{{sport.description}}</p>
+<a href="/sports/{{sport._id}}/delete">Delete</a>
 {{/each}}
 
 {{#if err}}
